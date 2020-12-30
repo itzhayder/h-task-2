@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.right>div {
+  text-align: center;
+}
+
+.left>h4 {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.temperature_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.temperature_container>h2 {
+  font-size: 40px;
+  margin-left: 15px;
+}
